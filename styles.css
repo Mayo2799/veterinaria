@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url(img/Veterinaria.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 8%;
+}
+
+ul {
+  list-style: none;
+  padding-top: 2rem;
+}
+
+li {
+  display: inline;
+  margin-left: 1.5rem;
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00d9ff;
+}
+
+.logo h1 {
+  color: #00d9ff;
+}

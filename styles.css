@@ -27,8 +27,8 @@ nav {
 }
 
 ul {
-  list-style: none;
-  padding-top: 2rem;
+  list-style-type: none;
+  margin-top: 2rem;
 }
 
 li {
@@ -52,6 +52,57 @@ a:hover {
 
 .icono-menu {
   display: none;
+}
+
+.contenido-header {
+  left: 10%;
+  position: relative;
+  top: 16%;
+  width: 50%;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+form {
+  margin-top: 3%;
+}
+
+input {
+  font-size: 1.6rem;
+  width: 50%;
+}
+
+.suscribirse {
+  background-color: #00d9ff;
+  border: 1px solid #0079ff;
+  color: #0019ff;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 3%;
+  width: 50%;
+}
+
+.contenedor-acerca {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  color: black;
+  font-size: 2rem;
+}
+
+.quienes-somos,
+.historia,
+.mision-vision {
+  width: 30%;
 }
 
 @media only screen and (max-width: 768px) {

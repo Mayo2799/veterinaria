@@ -7,11 +7,11 @@
   padding: 0;
 }
 
-h1 {
+.titulo-logo {
   font-size: 3.6rem;
 }
 
-header {
+.encabezado-pagina {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
     url(img/Veterinaria.jpg);
   background-position: center;
@@ -20,32 +20,33 @@ header {
   height: 100vh;
 }
 
-nav {
+.barra-navegacion {
   display: flex;
   justify-content: space-between;
   padding: 2% 8%;
 }
 
-ul {
+.lista-navegacion {
   list-style-type: none;
   margin-top: 2rem;
 }
 
-li {
+.lista-elementos-menu {
   display: inline;
   margin-left: 1.5rem;
 }
 
-a {
+.enlace-elementos-menu,
+.enlace-icono-redes {
   font-size: 1.6rem;
   text-decoration: none;
 }
 
-a:hover {
+.enlace-elementos-menu:hover {
   color: #00d9ff;
 }
 
-.logo h1 {
+.logo .titulo-logo {
   color: #00d9ff;
   font-family: "Luxurious Roman", cursive;
 }
@@ -61,19 +62,20 @@ a:hover {
   width: 50%;
 }
 
-h2 {
+.titulo-contenido {
   font-size: 4rem;
 }
 
-p {
+.parrafo-contenido,
+.parrafo-pie-pagina {
   font-size: 1.6rem;
 }
 
-form {
+.formulario-suscribirse {
   margin-top: 3%;
 }
 
-input {
+.input-suscribirse {
   font-size: 1.6rem;
   width: 50%;
 }
@@ -95,9 +97,14 @@ input {
   justify-content: space-around;
 }
 
-h3 {
+.titulo-secciones,
+.titulo-seccion-contacto {
   color: black;
   font-size: 3rem;
+}
+
+.titulo-seccion-contacto {
+  margin-bottom: 3.5rem;
 }
 
 .quienes-somos,
@@ -107,7 +114,7 @@ h3 {
   padding: 1.6rem;
 }
 
-h4 {
+.subtitulo-secciones {
   color: black;
   font-size: 1.7rem;
   margin-top: 3%;
@@ -181,27 +188,27 @@ h4 {
   flex-direction: column;
 }
 
-.formulario-contacto input {
+.formulario-contacto .input-formulario {
   color: #000000;
   font-size: 1.6rem;
   margin-bottom: 1rem;
   width: 40rem;
 }
 
-.formulario-contacto textarea {
+.formulario-contacto .textarea-formulario {
   color: #000000;
   font-size: 1.6rem;
   height: 15rem;
   width: 40rem;
 }
 
-.formulario-contacto button {
+.formulario-contacto .btn {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   width: 40rem;
 }
 
-footer {
+.pie-pagina {
   background-color: #000000;
   display: flex;
   height: 3rem;
@@ -217,7 +224,7 @@ footer {
     top: 26px;
   }
 
-  nav {
+  .barra-navegacion {
     flex-direction: column;
   }
 
@@ -230,12 +237,12 @@ footer {
     display: block;
   }
 
-  nav ul li {
+  .barra-navegacion .lista-navegacion .lista-elementos-menu {
     display: block;
     padding: 1% 0;
   }
 
-  nav ul li a {
+  .barra-navegacion ul li a {
     color: black;
   }
 }

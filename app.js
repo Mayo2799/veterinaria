@@ -1,3 +1,5 @@
 document.querySelector("#menu").addEventListener("click", () => {
-  document.querySelector("nav ul").classList.toggle("mostrar");
+  document
+    .querySelector(".barra-navegacion .lista-navegacion")
+    .classList.toggle("mostrar");
 });

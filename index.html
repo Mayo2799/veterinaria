@@ -20,30 +20,30 @@
     <title>Página Web</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="encabezado-pagina">
+      <nav class="barra-navegacion">
         <div class="logo">
-          <h1>Veterinaria</h1>
+          <h1 class="titulo-logo">Veterinaria</h1>
         </div>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca</a></li>
-          <li><a href="#">Testimonios</a></li>
-          <li><a href="#">Contacto</a></li>
+        <ul class="lista-navegacion">
+          <li class="lista-elementos-menu"><a class="enlace-elementos-menu" href="#">Inicio</a></li>
+          <li class="lista-elementos-menu"><a class="enlace-elementos-menu" href="#">Acerca</a></li>
+          <li class="lista-elementos-menu"><a class="enlace-elementos-menu" href="#">Testimonios</a></li>
+          <li class="lista-elementos-menu"><a class="enlace-elementos-menu" href="#">Contacto</a></li>
         </ul>
         <i class="fas fa-bars fa-9x icono-menu" id="menu"></i>
       </nav>
 
       <div class="contenido-header">
-        <h2>Un título con contenido</h2>
-        <p>
+        <h2 class="titulo-contenido">Un título con contenido</h2>
+        <p class="parrafo-contenido">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
           recusandae in quis eveniet beatae, aut earum neque delectus nesciunt,
           nulla ex ipsam. Ratione, mollitia qui? Exercitationem, suscipit
           tempora. Error, eos!
         </p>
-        <form>
-          <input type="email" />
+        <form class="formulario-suscribirse">
+          <input class="input-suscribirse" type="email" />
           <button class="suscribirse" type="button">Suscribirse</button>
         </form>
       </div>
@@ -52,8 +52,8 @@
     <section class="acerca">
       <div class="contenedor-acerca">
         <div class="quienes-somos">
-          <h3>Compañia</h3>
-          <h4>
+          <h3 class="titulo-secciones">Compañia</h3>
+          <h4 class="subtitulo-secciones">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nisi
             tenetur quis modi animi cupiditate culpa sed hic dolore eligendi
             delectus, ea, doloribus quidem dolorem aliquid debitis libero
@@ -66,8 +66,8 @@
           />
         </div>
         <div class="historia">
-          <h3>Historia</h3>
-          <h4>Quienes somos</h4>
+          <h3 class="titulo-secciones">Historia</h3>
+          <h4 class="subtitulo-secciones">Quienes somos</h4>
           <p class="parrafo">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             dicta ipsa fugit tenetur, blanditiis quasi assumenda impedit nam
@@ -77,15 +77,15 @@
           <button class="btn">Leer más...</button>
         </div>
         <div class="mision-vision">
-          <h3>Misión / Visión</h3>
-          <h4>Misión</h4>
+          <h3 class="titulo-secciones">Misión / Visión</h3>
+          <h4 class="subtitulo-secciones">Misión</h4>
           <p class="parrafo">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
             quasi optio recusandae quod neque! Aspernatur quis, doloremque,
             voluptas, officiis dignissimos amet adipisci eum quae est debitis
             quaerat optio non obcaecati.
           </p>
-          <h4>Visión</h4>
+          <h4 class="subtitulo-secciones">Visión</h4>
           <p class="parrafo">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
             quasi optio recusandae quod neque! Aspernatur quis, doloremque,
@@ -97,7 +97,7 @@
       </div>
     </section>
     <section class="testimonio">
-      <h3>Testimonios</h3>
+      <h3 class="titulo-secciones">Testimonios</h3>
       <div class="contenedor-testimonios">
         <div class="tarjeta-testimonio">
           <div class="datos-cliente">
@@ -108,8 +108,8 @@
               />
             </div>
             <div class="nombre-cliente">
-              <h4>Claudia Goméz</h4>
-              <h4>claudiag@hotmail.com</h4>
+              <h4 class="subtitulo-secciones">Claudia Goméz</h4>
+              <h4 class="subtitulo-secciones">claudiag@hotmail.com</h4>
             </div>
           </div>
           <p class="parrafo">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut consectetur numquam quidem soluta! Provident pariatur reiciendis est soluta beatae saepe ipsam, nihil sed temporibus consequuntur ad id non laborum nostrum."</p>
@@ -123,8 +123,8 @@
               />
             </div>
             <div class="nombre-cliente">
-              <h4>Fernando Molina </h4>
-              <h4>fernandom@hotmail.com</h4>
+              <h4 class="subtitulo-secciones">Fernando Molina </h4>
+              <h4 class="subtitulo-secciones">fernandom@hotmail.com</h4>
             </div>
         </div>
         <p class="parrafo">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut consectetur numquam quidem soluta! Provident pariatur reiciendis est soluta beatae saepe ipsam, nihil sed temporibus consequuntur ad id non laborum nostrum."</p>
@@ -132,23 +132,23 @@
     </section>
 
     <section class="contacto">
-      <h3>Contáctanos</h3>
+      <h3 class="titulo-seccion-contacto">Contáctanos</h3>
       <form class="formulario-contacto" action="">
-        <input type="text" placeholder="Escriba su nombre">
-        <input type="email" placeholder="Escriba su correo">
-        <textarea>Esciba su mensaje</textarea>
+        <input class="input-formulario" type="text" placeholder="Escriba su nombre">
+        <input class="input-formulario" type="email" placeholder="Escriba su correo">
+        <textarea class="textarea-formulario">Esciba su mensaje</textarea>
         <button class="btn" type="button">Contactar</button>
         </form>
     </section>
 
-    <footer>
-      <p>Keilin Paniagua Barrantes 2022</p>
+    <footer class="pie-pagina">
+      <p class="parrafo-pie-pagina">Keilin Paniagua Barrantes 2022</p>
       <div>
         Visítanos en nuestras redes sociales:
-        <a href="https://www.twitter.com">
+        <a class="enlace-icono-redes" href="https://www.twitter.com">
           <i class="fab fa-twitter fa-1x"></i>
         </a>
-        <a href="https://www.facebook.com">
+        <a class="enlace-icono-redes" href="https://www.facebook.com">
           <i class="fab fa-facebook-square fa-1x"></i>
         </a>
       </div>
@@ -156,4 +156,3 @@
     <script src="app.js"></script>
   </body>
 </html>
-
